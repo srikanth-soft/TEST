@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Example 2:",
+        "description": "mssql2."
+    },
+    {
+        "title": "Example 1 - Raw data from employee table",
+        "image": "https://tapublicviewsql.blob.core.windows.net/ta-container-pulic-view-sql/json-content-image-C07-L01-01.png"
+    },
+    {
+        "title": "Example 1 - Query",
+        "code": "SELECT * FROM employee;"
+    },
+    {
+        "title": "Example 1 - Query data mapping",
+        "image": "https://tapublicviewsql.blob.core.windows.net/ta-container-pulic-view-sql/json-content-image-C07-L01-02.png",
+        "description": "In above image, the color green signifies that the output for our query will include all rows and columns being selected."
+    },
+    {
+        "title": "Example 1 - Query Output",
+        "image": "https://tapublicviewsql.blob.core.windows.net/ta-container-pulic-view-sql/json-content-image-C07-L01-03.png"
+    },
+    {
+        "title": "Example 2:",
+        "description": "Let's understand the process of extracting desired columns from a specified table. In this case, we aim to retrieve 4 columns from the employee table."
+    },
+    {
+        "title": "Example 2 - Raw data from employee table",
+        "image": "https://tapublicviewsql.blob.core.windows.net/ta-container-pulic-view-sql/json-content-image-C07-L01-01.png"
+    },
+    {
+        "title": "Example 2 - Query",
+        "code": "SELECT employee_id, first_name, last_name, email\n FROM employee;"
+    },
+    {
+        "title": "Example 2 - Query data mapping",
+        "image": "https://tapublicviewsql.blob.core.windows.net/ta-container-pulic-view-sql/json-content-image-C07-L01-04.png",
+        "description": "In above image, the color green signifies that the output for our query will include data from desired columns(employee_id, first_name, last_name and email)."
+    },
+    {
+        "title": "Example 2 - Query Output",
+        "image": "https://tapublicviewsql.blob.core.windows.net/ta-container-pulic-view-sql/json-content-image-C07-L01-05.png"
+    }
+]
